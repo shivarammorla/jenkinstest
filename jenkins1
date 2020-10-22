@@ -9,11 +9,11 @@ pipeline {
                 git credentialsId: 'github-creds', url: 'https://github.com/shivarammorla/jenkinstest.git'
             }
         }
-      //  stage('Junit') {
-        //    steps {
-            //    sh 'mvn test'
-           // }
-       // }
+       stage('Junit') {
+           steps {
+                sh 'mvn test'
+            }
+        }
         stage('build code from maven')
           {
          steps
