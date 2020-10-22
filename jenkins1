@@ -27,8 +27,8 @@ pipeline {
            
            // nexusArtifactUploader artifacts: [[artifactId: 'maven-project', classifier: '', file: 'webapp/target/webapp.war', type: 'jar']], credentialsId: '397aa6b7-4dbc-499a-8841-945dc17b225b', groupId: 'com.example.maven-project', nexusUrl: '15.206.66.142:8081', nexusVersion: 'nexus3', protocol: 'http', repository: 'hcltraining', version: '1.0-SNAPSHOT'
             //nexusArtifactUploader artifacts: [[artifactId: 'maven-project', classifier: '', file: 'target/webapp.war', type: 'war']], credentialsId: '397aa6b7-4dbc-499a-8841-945dc17b225b', groupId: 'com.example.maven-project', nexusUrl: '52.66.199.26:8081', nexusVersion: 'nexus3', protocol: 'http', repository: 'hcltraining', version: '1.0-SNAPSHOT'
-            nexusArtifactUploader artifacts: [[artifactId: 'springboot', classifier: '', file: 'webapp/target/webapp.war', type: 'war']], credentialsId: '397aa6b7-4dbc-499a-8841-945dc17b225b', groupId: 'org.rahul', nexusUrl: '52.66.199.26', nexusVersion: 'nexus3', protocol: 'http', repository: 'hcltraining', version: '0.0.1'
-            
+            //nexusArtifactUploader artifacts: [[artifactId: 'springboot', classifier: '', file: 'webapp/target/webapp.war', type: 'war']], credentialsId: '397aa6b7-4dbc-499a-8841-945dc17b225b', groupId: 'org.rahul', nexusUrl: '52.66.199.26', nexusVersion: 'nexus3', protocol: 'http', repository: 'hcltraining', version: '0.0.1'
+            nexusArtifactUploader artifacts: [[artifactId: 'springboot', classifier: '', file: 'webapp/target/springboot-0.0.1.jar', type: 'jar']], credentialsId: '397aa6b7-4dbc-499a-8841-945dc17b225b', groupId: 'org.rahul', nexusUrl: '52.66.199.26', nexusVersion: 'nexus3', protocol: 'http', repository: 'hcltraining', version: '0.0.1'
             }
            
         }
