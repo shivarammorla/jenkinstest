@@ -6,7 +6,7 @@ pipeline {
     stages{
         stage('checkout'){
             steps{
-                git credentialsId: 'github-creds', url: 'https://github.com/shivarammorla/hello-world.git'
+                git credentialsId: 'github-creds', url: 'https://github.com/shivarammorla/jenkinstest.git'
             }
         }
         stage('Junit') {
