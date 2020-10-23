@@ -36,6 +36,19 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+	
+	<distributionManagement>
+	    <repository>
+	      <id>nexus</id>
+	      <name>anz-release</name>
+	      <url>http://65.0.107.195:8081/repository/anz-release/</url>
+	    </repository>
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>anz-snapshot </name>
+	      <url>http://65.0.107.195:8081/repository/anz-snapshot/</url>
+	    </snapshotRepository>
+	</distributionManagement>
 
 	<build>
 		<plugins>
