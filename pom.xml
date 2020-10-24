@@ -37,7 +37,7 @@
 		</dependency>
 	</dependencies>
 	
-	<distributionManagement>
+<!--	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
 	      <name>anz-release</name>
@@ -48,7 +48,13 @@
 	      <name>anz-snapshot </name>
 	      <url>http://65.0.107.195:8081/repository/anz-snapshot/</url>
 	    </snapshotRepository>
-	</distributionManagement>
+	</distributionManagement>  -->
+	<distributionManagement>
+	<repository>
+	      <id>nexus</id>
+	      <url>http://65.0.124.213:8081/repository/hcltraining/</url>
+	</repository>
+       </distributionManagement>
 
 	<build>
 		<plugins>
