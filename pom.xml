@@ -51,7 +51,7 @@
 	</distributionManagement>  -->
 	<distributionManagement>
 	<repository>
-	      <id>nexus</id>
+	      <id>deploymentRepo</id>
 	      <url>http://65.0.124.213:8081/repository/hcltraining/</url>
 	</repository>
        </distributionManagement>
