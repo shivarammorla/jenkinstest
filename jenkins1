@@ -33,7 +33,7 @@ pipeline {
             //nexusArtifactUploader artifacts: [[artifactId: 'springboot', classifier: '', file: 'target/springboot-0.0.1.jar', type: 'jar']], credentialsId: '397aa6b7-4dbc-499a-8841-945dc17b225b', groupId: 'org.rahul', nexusUrl: '52.66.199.26', nexusVersion: 'nexus3', protocol: 'http', repository: 'hcltraining', version: '0.0.1'
            // nexusArtifactUploader artifacts: [[artifactId: 'springboot', classifier: '', file: 'target/springboot-0.0.1.jar', type: 'jar']], credentialsId: '397aa6b7-4dbc-499a-8841-945dc17b225b', groupId: 'org.rahul', nexusUrl: '65.0.107.195', nexusVersion: 'nexus2', protocol: 'http', repository: 'hcltraining', version: '0.0.1'
          // nexusArtifactUploader artifacts: [[artifactId: 'springboot', classifier: '', file: 'target/springboot-1.0-SNAPSHOT.jar', type: 'jar']], credentialsId: '397aa6b7-4dbc-499a-8841-945dc17b225b', groupId: 'org.rahul', nexusUrl: '65.0.107.195', nexusVersion: 'nexus3', protocol: 'http', repository: 'anz-snapshot', version: '1.0-SNAPSHOT'  
-           nexusArtifactUploader artifacts: [[artifactId: 'springboot', classifier: '', file: 'target/springboot-1.0-SNAPSHOT.jar', type: 'jar']], credentialsId: 'nexus', groupId: 'org.rahul', nexusUrl: '65.0.107.195', nexusVersion: 'nexus2', protocol: 'http', repository: 'hcltraining', version: '1.0-SNAPSHOT'
+           nexusArtifactUploader artifacts: [[artifactId: 'springboot', classifier: '', file: 'target/springboot-1.0-SNAPSHOT.jar', type: 'jar']], credentialsId: 'nexus', groupId: 'org.rahul', nexusUrl: '65.0.124.213', nexusVersion: 'nexus3', protocol: 'http', repository: 'hcltraining', version: '1.0-SNAPSHOT'
            }
            
         }
